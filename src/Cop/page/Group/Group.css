@@ -1,0 +1,34 @@
+/* styles.css */
+
+.start-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+  align-items: center;
+}
+.start-img,
+.start-content {
+  width: 50%;
+}
+
+.start-img img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.start-content p {
+  font-size: 1.1rem;
+  line-height: 28px;
+  color: #666;
+  margin-bottom: 50px;
+}
+.register{
+  padding: 15px 30px;
+  background-color: #070b10;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}

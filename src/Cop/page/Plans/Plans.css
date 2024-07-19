@@ -1,0 +1,104 @@
+.pricing-top {
+    text-align: center;
+  }
+  .pricing-top h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+  }
+  .pricing-top p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 20PX;
+    margin-bottom: 50px;
+
+  }
+  
+  .pricing-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+  }
+  
+  .price_item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0,0.2);
+  }
+  .price_item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .pric_card_top {
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+
+
+
+
+
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  
+  
+    .price_item:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  .price-section-title {
+    font-size: 2em;
+    color: #521616;
+  }
+  
+  .price-section-title span {
+    font-size: 0.5em;
+    color: #999;
+  }
+  
+  .services {
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .services ul li:last-child {
+    border-bottom: none;
+  }
+  
+  button {
+    background: rgb(125, 30, 151);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: rgb(202, 61, 183);
+  }
+  

@@ -1,0 +1,105 @@
+.home_container {
+    margin-top: 80px;
+    margin-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .home_content {
+    
+   margin-right: 50px;
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Take available space */
+  }
+  
+  .home_content .section-title {
+
+    font-size: 3rem;
+    line-height: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .home_content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  
+  .home-btns {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .register-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .get-started-btn {
+    background-color: #88217f;
+    color: white;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #110c11;
+    transform: scale(1.05);
+  }
+  
+  .watch-now-btn {
+    background-color: #88217f;
+
+    color: white;
+  }
+  
+  .watch-now-btn:hover {
+    background-color: #0c080c;
+    transform: scale(1.05);
+  }
+  
+  .home-side-content {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box-img{
+    margin-left: 40px;
+    position: relative;
+  }
+  
+  .box-img img {
+    width: 25.3rem;
+    height: 25rem;
+    border-radius: 50%;
+  }
+  
+  .whatsapp-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .whatsapp-container h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .support h4 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
