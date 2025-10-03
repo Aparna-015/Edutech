@@ -14,7 +14,7 @@ function Group() {
           <img src={tc} alt="" />
         </div>
         <div className="start-content">
-          <h2 className="section-title">Join our free community</h2>
+          <h2 className="section-title">Join our  community</h2>
           <p>
             unlock the power of knowledge, which will bring you the opportunity
             to make a difference
