@@ -20,7 +20,7 @@ function Home() {
         <div className="home_container">
           <div className="home_content">
             <h2 className="section-title">Learn anything for free</h2>
-            <p>Unlocking Potential through Smart Learning Solutions</p>
+            <p>Unlocking Potential through Smart Learning </p>
             <div className="home-btns">
               <button className="register-btn get-started-btn" onClick={handleclick}>Get start</button>
               <button className="register-btn watch-now-btn">Watch now</button>
